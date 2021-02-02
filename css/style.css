@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Orbitron&display=swap');
+
+body{
+    background: #000;
+}
+
+main{
+    min-height: 100vh;
+}
+
+.fecha{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.hora{
+    font-family: 'Londrina Outline', cursive;
+}
