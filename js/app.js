@@ -41,4 +41,19 @@ function obtenerFecha(){
     pSegundos.innerHTML = segundos;
 }
 
+function cambiarColor(color){
+    let section = document.getElementById('reloj');
+    
+    if(color === 'rosa'){
+        section.className = 'w-75 pink';
+    }
+    if(color ==='verde'){
+        section.className = 'w-75 green';
+    }
+    if(color ==='azul'){
+        section.className = 'w-75 blue';
+    }
+}
+
+
 window.setInterval(obtenerFecha,1000);
