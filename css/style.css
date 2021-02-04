@@ -10,8 +10,64 @@ main{
 
 .fecha{
     font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: 0.1em;
 }
 
 .hora{
     font-family: 'Londrina Outline', cursive;
+    color: #fff;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+}
+
+/* efectos de neon */
+.green{
+    text-shadow: 
+        0 0 5px #7bffce,
+        0 0 10px #7bffce,
+        0 0 20px #7bffce,
+        0 0 40px #7bffce,
+        0 0 80px #7bffce,
+        0 0 90px #7bffce,
+        0 0 100px #7bffce;
+}
+.blue{
+    text-shadow: 
+        0 0 5px #7bacff,
+        0 0 10px #7bacff,
+        0 0 20px #7bacff,
+        0 0 40px #7bacff,
+        0 0 80px #7bacff,
+        0 0 90px #7bacff,
+        0 0 100px #7bacff;
+}
+.pink{
+    text-shadow: 
+        0 0 5px #ff7bac,
+        0 0 10px #ff7bac,
+        0 0 20px #ff7bac,
+        0 0 40px #ff7bac,
+        0 0 80px #ff7bac,
+        0 0 90px #ff7bac,
+        0 0 100px #ff7bac;
+}
+
+/* botones */
+
+.btn-green{
+    background:#7bffce;
+}
+.btn-blue{
+    background:#7bacff;
+}
+.btn-pink{
+    background:#ff7bac;
+}
+
+.boton{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
